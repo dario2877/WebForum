@@ -4,7 +4,7 @@ import { comments } from "./assets/commentData";
 import { Card } from "./components/Card";
 import "./App.css";
 
-function App() {
+export function App() {
   return (
     <>
       {comments.map((comment) => (

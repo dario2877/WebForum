@@ -1,16 +1,13 @@
-
 type Props = {
   comment: string;
-  
 };
 
-export function Body({ comment}: Props) {
-
+export function Body({ comment }: Props) {
   return (
     <>
       <div>
         <p>{comment}</p>
-      </div>
+      </div>ß
     </>
   );
 }
