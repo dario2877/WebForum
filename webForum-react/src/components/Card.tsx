@@ -12,7 +12,7 @@ export function Card({
         profilePicUrl={commentObject.profileImg}
         username={commentObject.username}
       />
-      <Body listOfComments={[commentObject]} />
+      <Body comment={commentObject.comment} />
     </div>
   );
 }
